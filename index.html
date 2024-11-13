@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="src/styles/styles.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+        integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <link rel="icon" type="img/x-icon" href="src/img/favicon.ico">
+    <title>Papo de grana</title>
+</head>
+
+<body>
+    <header>
+        <nav id="navbar">
+            <img id="nav_logo" src="src/img/imagemSemFundo.png" alt="logo">
+
+            <ul id="nav_list">
+                <li class="nav-item active">
+                    <a href="#home">Início</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#menu">Aulas</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#ia">Chatbot</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#time">Time</a>
+                </li>
+            </ul>
+            <a class="nav-link" href="login.html"><img id="login" class="login" src="src/img/login.png" alt="login">
+            </a>
+
+            <button id="mobile_btn" class="mobile_btn">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+        </nav>
+
+        <div id="mobile_menu">
+            <ul id="mobile_nav_list">
+                <li class="nav-item">
+                    <a href="#home">Início</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#aulas">Aulas</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#time">Time</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#ia">Chatbot</a>
+                </li>
+            </ul>
+            <a class="nav-link" href="login.html"><img id="login" class="login" src="src/img/login.png" alt="login">
+            </a>
+        </div>
+    </header>
+
+    <main id="conteudo">
+        <section id="home">
+            <div class="shape"></div>
+            <div id="pag">
+                <h1 class="title">O futuro está em suas <span>mãos </span></h1>
+
+                <p class="description">
+                    O <span>Papo de Grana</span> ensina jovens adultos sobre educação financeira por meio de um chatbot
+                    interativo e aulas práticas, ajudando-os a tomar decisões financeiras inteligentes e construir um
+                    futuro mais seguro.
+                </p>
+
+                <div id="pag_buttons">
+                    <a href="#ia" class="btn-default">iniciar AI</a>
+                    <a href="#menu" class="btn-default">Ver aulas rapidas</a>
+                </div>
+
+                <div class="btn-redes-sociais">
+                    <a href="#">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+                    <a href="#">
+                        <i class="fa-brands fa-facebook"></i>
+                    </a>
+                </div>
+            </div>
+
+            <div id="banner">
+                <img src="src/img/foto.png" alt="banner">
+            </div>
+        </section>
+
+
+
+        <section id="menu">
+            <h2 class="titulo">Aulas rápidas</h2>
+            <h3 class="subtitulo">Nossos aulas especiais para você</h3>
+
+            <div id="lessons">
+                <div class="lesson">
+                    <div class="lesson-coracao">
+                        <i class="fa-solid fa-heart"></i>
+                    </div>
+
+                    <img src="src/img/aulasintro.png" class="lesson-img" alt="">
+
+                    <h3 class="lesson-titulo">
+                        Introdução à Educação Financeira
+                    </h3>
+
+                    <span class="lesson-descricao">
+                        Aprenda os conceitos básicos de finanças pessoais, como orçamento, poupança e planejamento
+                        financeiro.
+                    </span>
+
+                    <div class="lesson-avaliar">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <span>(700+)</span>
+                    </div>
+
+                    <div class="lesson-estrela">
+                        <a href="indexa1.html" class="btn-default">
+                            <i class="fa-solid fa-play"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="lesson">
+                    <div class="lesson-coracao">
+                        <i class="fa-solid fa-heart"></i>
+                    </div>
+
+                    <img src="src/img/aulas.png" class="lesson-img" alt="">
+
+                    <h3 class="lesson-titulo">
+                        Controle de Gastos e Orçamento
+                    </h3>
+                    <span class="lesson-descricao">
+                        Descubra como organizar seus gastos e criar um orçamento eficaz para equilibrar sua vida
+                        financeira.
+                    </span>
+
+                    <div class="lesson-avaliar">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <span>(200+)</span>
+                    </div>
+
+                    <div class="lesson-estrela">
+                        <a href="indexa2.html" class="btn-default">
+                            <i class="fa-solid fa-play"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="lesson">
+                    <div class="lesson-coracao">
+                        <i class="fa-solid fa-heart"></i>
+                    </div>
+
+                    <img src="src/img/aulasinves.png" class="lesson-img" alt="">
+
+                    <h3 class="lesson-titulo">
+                        Investimentos para Iniciantes
+                    </h3>
+
+                    <span class="lesson-descricao">
+                        Entenda os princípios básicos de investimentos e como começar a fazer seu dinheiro trabalhar
+                        para você.
+                    </span>
+
+                    <div class="lesson-avaliar">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <span>(1000+)</span>
+                    </div>
+
+                    <div class="lesson-estrela">
+                        <a href="indexa3.html" class="btn-default">
+                            <i class="fa-solid fa-play"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="lesson">
+                    <div class="lesson-coracao">
+                        <i class="fa-solid fa-heart"></i>
+                    </div>
+
+                    <img src="src/img/aulagastos.png" class="lesson-img" alt="">
+
+                    <h3 class="lesson-titulo">
+                        Como Sair das Dívidas rapidamente
+                    </h3>
+
+                    <span class="lesson-descricao">
+                        Estratégias práticas para quitar dívidas, reorganizar suas finanças e evitar novos problemas
+                        financeiros.
+                    </span>
+
+                    <div class="lesson-avaliar">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <span>(900+)</span>
+                    </div>
+
+                    <div class="lesson-estrela">
+                        <a href="indexa4.html" class="btn-default">
+                            <i class="fa-solid fa-play"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="ia">
+            <h1 class="section-subtitle">Tire suas <span>duvidas!</span></h1><button class="btn-default">
+                <i class="fa-solid fa-arrow-down"></i>
+            </button>
+            <br>
+            <iframe src="https://www.chatbase.co/chatbot-iframe/rf1M2XqWtfnwBb1RGKpDN" width="100%"
+                style="height: 100%; min-height: 700px" frameborder="0"></iframe>
+        </section>
+
+        <section id="assinatura">
+            <div class="assinatura-conteudo">
+                <h2>Faça o seu primeiro INVESTIMENTO!</h2>
+                <p>Ao assinar, você terá acesso a conteúdos exclusivos, aulas avançadas e um chatbot personalizado para
+                    tirar suas dúvidas financeiras!</p>
+                <a href="assinatura.html" class="btn-default">Assinar Agora</a>
+            </div>
+        </section>
+
+
+        <section id="time">
+            <h3 class="section-descricao">Nosso <span>time!</span></h3>
+            <div id="lessons">
+                <div class="lesson">
+
+
+                    <img src="src/img/abdulla.png" class="lesson-img" alt="abdalla">
+
+                    <h3 class="lesson-titulo">
+                        Abdalla Dib
+                    </h3>
+
+                    <span class="lesson-descricao">
+                        Sócio responsável pela parte de desenvolvimento do site Papo de Grana.
+                        Apaixonado por tecnologia e programação, se dedicou a criar uma plataforma intuitiva e
+                        envolvente,
+                        ajudando a transformar ideias em realidade.
+                    </span>
+
+                    <div class="btn-redes-sociais">
+                        <a href="https://www.instagram.com/dib_abdalla" target="_blank">
+                            <i class="fa-brands fa-instagram"></i>
+                        </a>
+                        <a href="#">
+                            <i class="fa-brands fa-linkedin"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="lesson">
+
+
+                    <img src="src/img/ramalho.jpg" class="lesson-img" alt="raphael">
+
+                    <h3 class="lesson-titulo">
+                        Raphael Athenesi
+                    </h3>
+
+                    <span class="lesson-descricao">
+                        Sócio responsável pela parte de desenvolvimento do site Papo de Grana.
+                        Estusiasta por tecnologia, busca evolução na implementação de novas funcionalidades em conjunto
+                        com a equipe
+                        para tornar o site mais acessível e funcional.
+                    </span>
+
+                    <div class="btn-redes-sociais">
+                        <a href="https://www.instagram.com/rramalhoo" target="_blank">
+                            <i class="fa-brands fa-instagram"></i>
+                        </a>
+                        <a href="#">
+                            <i class="fa-brands fa-linkedin"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="lesson">
+
+
+                    <img src="src/img/passador.jpg" class="lesson-img" alt="Henrique">
+
+                    <h3 class="lesson-titulo">
+                        Henrique Angelo
+                    </h3>
+
+                    <span class="lesson-descricao">
+                        Responsável pela parte criativa e layout visual do site Papo de Grana,
+                        com foco em tornar o conhecimento acessível e facilitar o aprendizado,
+                        de forma prática e direta, deixando o site envolvente e de fácil navegação para os usuarios.
+                    </span>
+
+                    <div class="btn-redes-sociais">
+                        <a href="https://www.instagram.com/henrique_passador" target="_blank">
+                            <i class="fa-brands fa-instagram"></i>
+                        </a>
+                        <a href="#">
+                            <i class="fa-brands fa-linkedin"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="lesson">
+
+
+                    <img src="src/img/Samantha.jpg" class="lesson-img" alt="">
+
+                    <h3 class="lesson-titulo">
+                        Samantha Okubo
+                    </h3>
+
+                    <span class="lesson-descricao">
+                        Responsável pela busca constante de conteúdos e informações do site Papo de Grana,
+                        trazendo uma abordagem inovadora e criativa para tornar conceitos financeiros acessíveis,
+                        didáticos e atualizados para as pessoas.
+
+                    </span>
+
+                    <div class="btn-redes-sociais">
+                        <a href="https://www.instagram.com/00_samis_00/" target="_blank">
+                            <i class="fa-brands fa-instagram"></i>
+                        </a>
+                        <a href="#">
+                            <i class="fa-brands fa-linkedin"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+
+
+    <script src="src/javascript/script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assine Agora - Invista no Melhor</title>
+    <link rel="stylesheet" href="src/styles/assinatura.css">
+    <link rel="icon" type="img/x-icon" href="src/img/favicon.ico">
+</head>
+
+<body>
+
+    <div class="assinatura-card">
+        <div class="container">
+            <img src="src/img/imagemSemFundo.png" alt="Logo">
+        </div>
+        <h2>Assine o Plano PRO</h2>
+        <h3>Plano completo para alcançar seus objetivos</h3>
+
+        <div class="plano">
+            <h3>Plano PRO</h3>
+            <p class="valor">R$ 99,90 / Mês</p>
+            <ul>
+                <li>Acesso completo a todos os conteúdos</li>
+                <li>Chatbot mais completo</li>
+            </ul>
+        </div>
+
+        <form class="assinatura-form" action="sucesso.html" method="POST">
+            <input type="text" placeholder="Nome completo" required>
+            <input type="email" placeholder="Email" required>
+            <input type="tel" placeholder="Telefone" required>
+            <input type="text" placeholder="Endereço" required>
+
+            <!-- Campo de Cartão de Crédito -->
+            <div class="cartao">
+                <label for="cartao">Número do Cartão de Crédito</label>
+                <input type="text" id="cartao" name="cartao" placeholder="XXXX XXXX XXXX XXXX" required>
+            </div>
+
+            <button type="submit">Assinar Agora</button>
+        </form>
+    </div>
+
+    <a href="index.html" class="btn-back">Voltar</a>
+
+</body>
+
+</html>
