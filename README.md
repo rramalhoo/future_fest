@@ -32,7 +32,7 @@ Este é o código-fonte para o site **Papo de Grana**, uma plataforma educativa 
 
 1. Clone o repositório em sua máquina local:
     ```bash
-    git clone https://github.com/danikejs/future_fest.git
+    git clone https://github.com/rramalhoo/future_fest.git
     ```
 
 2. Abra o arquivo `index.html` em seu navegador para visualizar o site.
